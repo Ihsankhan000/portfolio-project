@@ -1,0 +1,61 @@
+.features .box {
+    padding: 50px;
+}
+.features .box h2{
+    margin: 20px 0;
+}
+.features .box p {
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+.features .box:hover p {
+    color: white;
+}
+.features .box i{
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.features .box:hover i {
+    opacity: 1;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .features .box {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    .box{
+        display: grid;
+       width: 360px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .features .box h2 {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .features .box p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+         word-spacing: 1px; /* Adjust word spacing for smaller screens */
+        line-height: 20px; /* Adjust line height for smaller screens */
+    }
+
+    .features .box i {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+}

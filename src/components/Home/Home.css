@@ -1,0 +1,168 @@
+ .hero{
+    position: relative;
+ }
+ .hero h3{
+  font-weight: 300;
+  letter-spacing: 2px;
+ }
+ .hero h1{
+    font-size: 60px;
+    font-weight: bold;
+ }
+ .hero  h1 span{
+    color: #ff014f;
+ }
+ .hero h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff014f;
+ }
+ .hero h2 span{
+    color: black;
+ }
+ .hero p{
+    color: #878e99;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+ }
+ .hero_btn{
+    margin-top: 20%;
+ }
+ .hero_btn h4{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #43474b;
+    font-size: 15px;
+    margin: 30px 0 30px 0;
+ }
+ .hero_btn button{
+    margin-right: 30px;
+ }
+ .hero i {
+    font-size: 20px;
+ }
+ .hero_btn button img{
+    width: 20px;
+    height: 20px;
+ }
+ .hero .left{
+    margin-right: 10%;
+ }
+ .hero .right {
+    width: 40%;
+    position: relative;
+ }
+ .hero .right_img{
+    background: linear-gradient(145deg,#e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    border-radius: 10px;
+    height: 580px;
+    width: 510px;
+    margin-top: 20%;
+ }
+ .hero .right_img img{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 510px;
+ }
+
+ .download_btn{
+   margin-top: 10px;
+   padding: 15px 25px;
+   border-radius: 50px;
+   transition: 0.5s all ease;
+   cursor: pointer;
+    color:  black;
+    font-weight: bold;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #6e6c6c;
+   
+ }
+ .download_btn:hover{
+   background: #ff014f;
+   color: white;
+   transform: translateY(-10px);
+ }
+
+
+
+
+
+ /* @media (max-width: 768px) {
+   .hero .right,
+   .hero .left {
+     width: 100%;
+     margin-left: 20px;
+   }
+ 
+   .hero .f_flex {
+     flex-direction: column;
+     flex-direction: column-reverse;
+   }
+   .hero .right_img {
+     width: 100%;
+     height: 54vh;
+   }
+ } */
+ 
+
+
+
+
+
+
+
+
+ /* Media query for mobile screens */
+@media (max-width: 768px) {
+   .hero {
+      position: relative;
+      top: 0;
+       flex-direction: column; /* Stack elements vertically for mobile screens */
+       padding: 30px; /* Adjust padding for smaller screens */
+       
+   }
+
+   .hero h1 {
+       font-size: 32px; /* Adjust font size for smaller screens */
+   }
+
+   .hero h2 {
+       font-size: 24px; /* Adjust font size for smaller screens */
+   }
+
+   .hero_btn {
+       margin-top: 10%; /* Adjust margin for smaller screens */
+   }
+
+   .hero_btn h4 {
+       font-size: 14px; /* Adjust font size for smaller screens */
+       margin: 10px 0; /* Adjust margin for smaller screens */
+   }
+
+   .hero p {
+       font-size: 14px; /* Adjust font size for smaller screens */
+       margin-top: 20px; /* Adjust margin for smaller screens */
+   }
+
+   .hero .right_img {
+      position: relative;
+      top: 80px;
+       margin-top: 10%; /* Adjust margin for smaller screens */
+       height: 300px; /* Adjust image height for smaller screens */
+       width: 100%; /* Make image width 100% for smaller screens */
+   }
+
+   .hero .right_img img {
+       right: 0;
+       top: 40px;
+       width: 100%; /* Make image width 100% for smaller screens */
+   }
+}
+
+
+
+
+
