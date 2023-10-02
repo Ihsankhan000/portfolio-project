@@ -55,17 +55,22 @@
  }
  .hero .right_img{
     background: linear-gradient(145deg,#e2e8ec, #ffffff);
-    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #cbcbcb;
     border-radius: 10px;
-    height: 580px;
-    width: 510px;
+    /* height: 580px;
+    width: 510px; */
+    width: 350px;
+    height: 350px;
     margin-top: 20%;
+    border-radius: 200px;
  }
  .hero .right_img img{
     position: absolute;
-    top: 0;
-    right: 10%;
-    width: 510px;
+    top: 110px;
+    right: 33%;
+    width: 335px;
+    height: 335px;
+    border-radius: 200px;
  }
 
  .download_btn{
@@ -148,18 +153,23 @@
    }
 
    .hero .right_img {
-      position: relative;
-      top: 80px;
-       margin-top: 10%; /* Adjust margin for smaller screens */
-       height: 300px; /* Adjust image height for smaller screens */
-       width: 100%; /* Make image width 100% for smaller screens */
+     position: absolute;
+     bottom: 590px;
+     right: 121px;
+       height: 150px; 
+       width: 150px; 
    }
 
    .hero .right_img img {
-       right: 0;
-       top: 40px;
-       width: 100%; /* Make image width 100% for smaller screens */
+       right: 8px;
+      top: 8px;
+       width: 135px;
+      height: 135px;
    }
+   .hero h2 {
+      width: 350px;
+      padding: 10px;
+  }
 }
 
 

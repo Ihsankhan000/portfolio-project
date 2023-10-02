@@ -20,13 +20,13 @@ const data = [
     {
       id: 4,
       image: "https://img.icons8.com/material-outlined/64/000000/topic--v1.png ",
-      title: "Mobile App",
+      title: "Github",
       desc: "There are many variations of passages of Lorem Ipsum	available, but the majority.",
     },
     {
       id: 5,
       image: "https://img.icons8.com/ios-filled/64/000000/wifi.png ",
-      title: "CEO Marketing",
+      title: "Ui/Ux Design",
       desc: "always free from repetition, injected humour, or non-characteristic words etc.",
     },
     {

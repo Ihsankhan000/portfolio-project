@@ -1,8 +1,10 @@
 import React from 'react'
 import './Home.css'
-import hero from '../pic/hero.png'
+// import hero from '../pic/hero.png'
+import ihsan from '../pic/profile.png'
 import skill1 from '../pic/skill1.png'
-import skill2 from '../pic/skill2.png'
+// import skill2 from '../pic/skill2.png'
+import skill2 from '../pic/github-icon-4.jpg'
 import skill3 from '../pic/skill3.png'
 import { Typewriter } from 'react-simple-typewriter'
 
@@ -33,7 +35,7 @@ const Home = () => {
                 </h1>
                 <h2>
                     a <span>   
-                       <Typewriter words={['MERN Stack Developer', 'Professional Coder','developer']} loop={5} cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /></span>
+                       <Typewriter words={['MERN Stack Developer', 'Professional Coder','developer']} loop={[]} cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /></span>
                 </h2>
                  
              {/* Download button  */}
@@ -76,7 +78,8 @@ const Home = () => {
 
             <div className="right">
                 <div className="right_img">
-                    <img src={hero} alt="" />
+                    {/* <img src={hero} alt="" /> */}
+                    <img src={ihsan} alt="" />
                 </div>
             </div>
         </div>
