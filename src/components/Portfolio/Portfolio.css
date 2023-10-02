@@ -173,8 +173,8 @@
     .portfolio .box {
         /* Adjust item styles for mobile screens */
         margin-bottom: 20px; /* Add margin between items */
+       
     }
-
     .portfolio .img {
         height: auto; /* Allow images to scale proportionally */
     }
