@@ -89,6 +89,9 @@
     flex-direction: column;
     width: 150px;
   }
+  .Resume .box {
+    width: 330px;
+  }
   .Resume .left::after {
     top: 14%;
     height: 105vh;
