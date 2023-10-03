@@ -15,8 +15,8 @@ const Home = () => {
 
        const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/resume.pdf'; // Replace with the actual path to your PDF file
-        link.download = 'resume.pdf'; // Specify the download file name
+        link.href = 'ihsan resume.pdf'; // Replace with the actual path to your PDF file
+        link.download = 'ihsan resume.pdf'; // Specify the download file name
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
